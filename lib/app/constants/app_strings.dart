@@ -7,4 +7,7 @@ class AppStrings {
   static const String email = 'Email';
   static const String password = 'Password';
   static const String pleaseLogin = 'Please login to your account.';
+  static const String startTime = 'Start Time';
+  static const String endTime = 'End Time';
+  static const String addMore = 'Add More';
 }
