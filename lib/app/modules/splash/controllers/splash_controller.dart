@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 import 'package:nevina_infotech/app/constants/app_assest.dart';
+import 'package:nevina_infotech/app/routes/app_pages.dart';
 
 class SplashController extends GetxController {
   final logo = AppImages.logo;
@@ -16,4 +17,8 @@ class SplashController extends GetxController {
 
   @override
   void onClose() {}
+
+  void goToLogin() {
+    Get.offAllNamed(Routes.LOGIN);
+  }
 }
