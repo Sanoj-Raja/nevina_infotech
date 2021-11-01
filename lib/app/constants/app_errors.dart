@@ -1,11 +1,15 @@
 class AppErrors {
   static const String nothingFound = 'Nothing found!';
-  static const String phoneNumberTextError = 
-  'Please enter correct phone number!';
+  static const String emailIdTextError = 'Please enter correct Email Id!';
+
+  static const String passwordTextError =
+      'Password must have atleast 4 characters!';
 
   static const String errorOccurred = 'Error Occurred.';
   static const String unknownErrorDetails =
       'Something went wrong. Please try again later.';
+
+  static const String somethingWentWrong = 'Something went wrong.';
 
   static const String noInternetError = 'Network Error!';
   static const String noInternetErrorDetails =
@@ -14,23 +18,4 @@ class AppErrors {
   static const String connnectionError = 'Connnection Error!';
   static const String connnectionErrorDetails =
       'Device is not connected to wifi or mobile data.';
-
-  static const String signoutError = 'Sign-Out Error!';
-  static const String signoutErrorDetails =
-      'Error occurred while Sign-Out. Try again.';
-
-  static const String accountAlreadyExistsError = 'Account already exists!';
-  static const String accountAlreadyExistsErrorDetails =
-      'Account already exists with a different credential.';
-
-  static const String signInError = 'Sign-In Error!';
-  static const String signInErrorDetails =
-      'Error occurred while Sign-In. Try again.';
-
-  static const String invalidCredentials = 'Invalid Credentials!';
-  static const String invalidCredentialsDetails =
-      'Error occurred while accessing credentials. Try again.';
-
-  static const String invalidPhoneNumber = 'Invalid Phone Number!';
-  static const String invalidPhoneNumberDetails = 'Please enter a valid phone number!';
 }

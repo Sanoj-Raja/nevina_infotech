@@ -1,10 +1,10 @@
 class AppStrings {
   static const String appTitle = 'Nevina';
   static const String loading = 'Loading';
+  static const String login = 'Login';
   static const String logout = 'Logout';
   static const String goBack = 'Go Back';
-  static const String sendOtp = 'Send OTP';
-  static const String phoneNumber = 'Phone Number';
-  static const String countryCode = '+91 ';
-  static const String verifyOtp = 'Verify OTP';
+  static const String email = 'Email';
+  static const String password = 'Password';
+  static const String pleaseLogin = 'Please login to your account.';
 }

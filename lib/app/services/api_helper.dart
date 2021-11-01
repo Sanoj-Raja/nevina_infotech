@@ -4,7 +4,6 @@ import 'package:get/get_connect.dart';
 import 'package:get/get_connect/http/src/request/request.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:nevina_infotech/app/constants/api_constants.dart';
-import 'package:nevina_infotech/app/constants/app_colors.dart';
 import 'package:nevina_infotech/app/constants/app_errors.dart';
 import 'package:nevina_infotech/app/utils/loader.dart';
 import 'base_api_helper.dart';
@@ -69,14 +68,6 @@ class ApiHelper extends GetConnect with BaseApiHelper {
         );
         // Get.back() is used for removing Loader().showLoadingWidget();
         Get.back();
-
-        if (response.hasError) {
-          Get.snackbar(
-            AppErrors.errorOccurred,
-            AppErrors.unknownErrorDetails,
-            backgroundColor: AppColors.white,
-          );
-        }
       },
     );
   }
