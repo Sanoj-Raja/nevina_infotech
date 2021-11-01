@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nevinainfotech.nevina_infotech">
+   <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />  
    <application
         android:label="nevina_infotech"
         android:icon="@mipmap/ic_launcher">
