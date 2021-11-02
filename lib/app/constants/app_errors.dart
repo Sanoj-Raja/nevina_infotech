@@ -18,4 +18,8 @@ class AppErrors {
   static const String connnectionError = 'Connnection Error!';
   static const String connnectionErrorDetails =
       'Device is not connected to wifi or mobile data.';
+
+  static const String sameIntervalSelected = 'Interval already selected!';
+  static const String sameIntervalSelectedDetails =
+      'Please select a different time interval.';
 }
